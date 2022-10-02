@@ -4,7 +4,6 @@ public class Ejercicio_4_23 extends javax.swing.JFrame {
     public Ejercicio_4_23() {
         initComponents();
     }
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
@@ -134,8 +133,6 @@ public class Ejercicio_4_23 extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton boton;
     private javax.swing.JLabel coeficientea;
     private javax.swing.JLabel coeficienteb;
@@ -146,5 +143,4 @@ public class Ejercicio_4_23 extends javax.swing.JFrame {
     private javax.swing.JTextField texto_coeficientec;
     private javax.swing.JTextArea texto_info;
     private javax.swing.JLabel titulo;
-    // End of variables declaration//GEN-END:variables
 }
