@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package Ejercicios_tercer_corte;
 
 import java.awt.event.ActionEvent;
@@ -13,9 +9,6 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
     public Ejercicio_3_18() {
         initComponents();
     }
-
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
@@ -197,17 +190,8 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
         salario_neto = (100-porc)*salario_bruto/100;
         texto_info.setText(nombre_empleado+"\n"+codigo_empleado+"\nSalario bruto: "+salario_bruto+"\nSalario neto: "+salario_neto);
         
-    }//GEN-LAST:event_boton_mostrarActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
+    }
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -224,9 +208,6 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Ejercicio_3_18.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Ejercicio_3_18().setVisible(true);
@@ -234,7 +215,6 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton boton_mostrar;
     private javax.swing.JLabel codigo;
     private javax.swing.JLabel horas_mes;
@@ -250,7 +230,6 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
     private javax.swing.JTextField texto_valor;
     private javax.swing.JLabel titulo;
     private javax.swing.JLabel valor_horas;
-    // End of variables declaration//GEN-END:variables
 
     }
 
