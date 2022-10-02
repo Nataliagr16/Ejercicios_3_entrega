@@ -6,7 +6,6 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
     public Ejercicio_4_10() {
         initComponents();
     }
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
@@ -136,11 +135,6 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_calcularActionPerformed
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -157,9 +151,7 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Ejercicio_4_10.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
+  
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Ejercicio_4_10().setVisible(true);
@@ -167,7 +159,6 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton boton_calcular;
     private javax.swing.JLabel estrato_social;
     private javax.swing.JScrollPane jScrollPane1;
@@ -180,5 +171,5 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
     private javax.swing.JTextField texto_num_inscripcion;
     private javax.swing.JTextField texto_patrimonio;
     private javax.swing.JLabel titulo;
-    // End of variables declaration//GEN-END:variables
+
 }
