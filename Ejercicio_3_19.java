@@ -7,8 +7,6 @@ public class Ejercicio_3_19 extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
@@ -83,7 +81,7 @@ public class Ejercicio_3_19 extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void boton_infoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_infoActionPerformed
         lado_triang = Double.parseDouble(texto_lado.getText());
@@ -91,11 +89,11 @@ public class Ejercicio_3_19 extends javax.swing.JFrame {
         altura = Math.sqrt(Math.pow(lado_triang,2)-Math.pow(lado_triang/2,2));
         area = (lado_triang*altura)/2;
         texto_info.setText("Altura: "+altura+"\nPerímetro: "+perimetro+"\nArea: "+area);
-    }//GEN-LAST:event_boton_infoActionPerformed
+    }
 
     private void texto_ladoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_ladoActionPerformed
 
-    }//GEN-LAST:event_texto_ladoActionPerformed
+    }
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -104,12 +102,12 @@ public class Ejercicio_3_19 extends javax.swing.JFrame {
             }
         });
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+
     private javax.swing.JButton boton_info;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lado;
     private javax.swing.JTextArea texto_info;
     private javax.swing.JTextField texto_lado;
     private javax.swing.JLabel titulo;
-    // End of variables declaration//GEN-END:variables
+
 }
