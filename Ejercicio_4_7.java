@@ -5,7 +5,6 @@ public class Ejercicio_4_7 extends javax.swing.JFrame {
     public Ejercicio_4_7() {
         initComponents();
     }
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
@@ -134,16 +133,13 @@ public class Ejercicio_4_7 extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Ejercicio_4_7.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
+ 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Ejercicio_4_7().setVisible(true);
             }
         });
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel numero1;
     private javax.swing.JLabel numero2;
@@ -151,5 +147,4 @@ public class Ejercicio_4_7 extends javax.swing.JFrame {
     private javax.swing.JTextField texto_numero1;
     private javax.swing.JTextField texto_numero2;
     private javax.swing.JLabel titulo;
-    // End of variables declaration//GEN-END:variables
 }
