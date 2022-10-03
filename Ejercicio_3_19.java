@@ -83,7 +83,7 @@ public class Ejercicio_3_19 extends javax.swing.JFrame {
         pack();
     }
 
-    private void boton_infoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_infoActionPerformed
+    private void boton_infoActionPerformed(java.awt.event.ActionEvent evt) {
         lado_triang = Double.parseDouble(texto_lado.getText());
         perimetro = 3*lado_triang;
         altura = Math.sqrt(Math.pow(lado_triang,2)-Math.pow(lado_triang/2,2));
@@ -91,8 +91,7 @@ public class Ejercicio_3_19 extends javax.swing.JFrame {
         texto_info.setText("Altura: "+altura+"\nPerímetro: "+perimetro+"\nArea: "+area);
     }
 
-    private void texto_ladoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_ladoActionPerformed
-
+    private void texto_ladoActionPerformed(java.awt.event.ActionEvent evt) {
     }
 
     public static void main(String args[]) {
