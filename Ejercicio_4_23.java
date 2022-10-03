@@ -19,30 +19,30 @@ public class Ejercicio_4_23 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        titulo.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        titulo.setFont(new java.awt.Font("Arial", 0, 18));
         titulo.setText("Ejercicio 23 capítulo 4");
 
-        coeficientea.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        coeficientea.setFont(new java.awt.Font("Arial", 0, 14));
         coeficientea.setText("Coeficiente a:");
 
-        coeficientec.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        coeficientec.setFont(new java.awt.Font("Arial", 0, 14));
         coeficientec.setText("Coeficiente c:");
 
-        coeficienteb.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        coeficienteb.setFont(new java.awt.Font("Arial", 0, 14));
         coeficienteb.setText("Coeficiente b:");
 
-        texto_coeficienteb.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_coeficienteb.setFont(new java.awt.Font("Arial", 0, 14));
         texto_coeficienteb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 texto_coeficientebActionPerformed(evt);
             }
         });
 
-        texto_coeficientea.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_coeficientea.setFont(new java.awt.Font("Arial", 0, 14));
 
-        texto_coeficientec.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_coeficientec.setFont(new java.awt.Font("Arial", 0, 14));
 
-        boton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        boton.setFont(new java.awt.Font("Arial", 0, 14));
         boton.setText("Calcular raíces");
         boton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,11 +110,9 @@ public class Ejercicio_4_23 extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-
-    private void texto_coeficientebActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_coeficientebActionPerformed
-
-    }//GEN-LAST:event_texto_coeficientebActionPerformed
+    }
+    private void texto_coeficientebActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
     private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
         a = Double.parseDouble(texto_coeficientea.getText());
@@ -124,7 +122,7 @@ public class Ejercicio_4_23 extends javax.swing.JFrame {
         raiz_1 = (-b + discriminante)/(2*a);
         raiz_2 = (-b - discriminante)/(2*a);
         texto_info.setText("Raíz: "+raiz_1+"\nRaiz: "+raiz_2);
-    }//GEN-LAST:event_botonActionPerformed
+    }
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
