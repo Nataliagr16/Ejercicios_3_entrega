@@ -23,30 +23,30 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        titulo.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        titulo.setFont(new java.awt.Font("Arial", 0, 18));
         titulo.setText("Ejercicio 10 capítulo 4");
 
-        numero_inscripcion.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        numero_inscripcion.setFont(new java.awt.Font("Arial", 0, 14));
         numero_inscripcion.setText("Número de inscripción:");
 
-        nombre_estud.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        nombre_estud.setFont(new java.awt.Font("Arial", 0, 14));
         nombre_estud.setText("Nombre estudiante:");
 
-        patrimonio.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        patrimonio.setFont(new java.awt.Font("Arial", 0, 14));
         patrimonio.setText("Patrimonio:");
 
-        estrato_social.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        estrato_social.setFont(new java.awt.Font("Arial", 0, 14));
         estrato_social.setText("Estrato social:");
 
-        texto_num_inscripcion.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_num_inscripcion.setFont(new java.awt.Font("Arial", 0, 14));
 
-        texto_nombre.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_nombre.setFont(new java.awt.Font("Arial", 0, 14));
+        
+        texto_estrato.setFont(new java.awt.Font("Arial", 0, 14));
 
-        texto_estrato.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_patrimonio.setFont(new java.awt.Font("Arial", 0, 14));
 
-        texto_patrimonio.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-
-        boton_calcular.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        boton_calcular.setFont(new java.awt.Font("Arial", 0, 14));
         boton_calcular.setText("Calcular matrícula");
         boton_calcular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -55,7 +55,7 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
         });
 
         texto_info.setColumns(20);
-        texto_info.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_info.setFont(new java.awt.Font("Arial", 0, 14));
         texto_info.setRows(5);
         jScrollPane1.setViewportView(texto_info);
 
@@ -119,9 +119,8 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-
-    private void boton_calcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_calcularActionPerformed
+    }
+    private void boton_calcularActionPerformed(java.awt.event.ActionEvent evt) {
         nom = (String)texto_nombre.getText();
         cod = (String)texto_num_inscripcion.getText();
         patrim = Double.parseDouble(texto_patrimonio.getText());
@@ -132,8 +131,7 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
         } else{
             texto_info.setText("Código: "+cod+"\nNombre: "+nom+"\nValor matrícula: 50.000");
         }
-    }//GEN-LAST:event_boton_calcularActionPerformed
-
+    }
     public static void main(String args[]) {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -171,5 +169,4 @@ public class Ejercicio_4_10 extends javax.swing.JFrame {
     private javax.swing.JTextField texto_num_inscripcion;
     private javax.swing.JTextField texto_patrimonio;
     private javax.swing.JLabel titulo;
-
 }
