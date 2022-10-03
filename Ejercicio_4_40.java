@@ -4,9 +4,7 @@ public class Ejercicio_4_40 extends javax.swing.JFrame {
     public Ejercicio_4_40() {
         initComponents();
     }
-
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
@@ -17,19 +15,19 @@ public class Ejercicio_4_40 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        titulo.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        titulo.setFont(new java.awt.Font("Arial", 0, 18));
         titulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titulo.setText("Ejercicio 40 capítulo 4");
 
-        numeros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        numeros.setFont(new java.awt.Font("Arial", 0, 14));
         numeros.setText("Números:");
 
-        texto_numeros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_numeros.setFont(new java.awt.Font("Arial", 0, 14));
 
-        aviso.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        aviso.setFont(new java.awt.Font("Arial", 0, 14));
         aviso.setText("Escriba los números separados por una coma, sin espacios.");
 
-        boton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        boton.setFont(new java.awt.Font("Arial", 0, 14));
         boton.setText("Calcular");
         boton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,9 +75,9 @@ public class Ejercicio_4_40 extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
+    private void botonActionPerformed(java.awt.event.ActionEvent evt) {
         String lista = texto_numeros.getText();
         String[] lista_sep = lista.split(",");
         int i;
@@ -90,14 +88,9 @@ public class Ejercicio_4_40 extends javax.swing.JFrame {
             double cubo = Math.pow(numero, 3);
             JOptionPane.showMessageDialog(null,"Número: "+numero+"\nRaíz: "+raiz+"\nCuadrado: "+cuadrado+"\nCubo: "+cubo);            
 }
-    }//GEN-LAST:event_botonActionPerformed
+    }
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -114,21 +107,16 @@ public class Ejercicio_4_40 extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Ejercicio_4_40.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Ejercicio_4_40().setVisible(true);
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel aviso;
     private javax.swing.JButton boton;
     private javax.swing.JLabel numeros;
     private javax.swing.JTextField texto_numeros;
     private javax.swing.JLabel titulo;
-    // End of variables declaration//GEN-END:variables
 }
