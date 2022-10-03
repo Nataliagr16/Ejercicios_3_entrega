@@ -20,25 +20,25 @@ public class Ejercicio_4_22 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        titulo.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        titulo.setFont(new java.awt.Font("Arial", 0, 18));
         titulo.setText("Ejercicio 22 capítulo 4");
 
-        nombre_empleado.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        nombre_empleado.setFont(new java.awt.Font("Arial", 0, 14));
         nombre_empleado.setText("Nombre empleado:");
 
-        salario_basico.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        salario_basico.setFont(new java.awt.Font("Arial", 0, 14));
         salario_basico.setText("Salario básico hora:");
 
-        horas_mes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        horas_mes.setFont(new java.awt.Font("Arial", 0, 14));
         horas_mes.setText("Horas trabajadas por mes:");
 
-        texto_emp.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_emp.setFont(new java.awt.Font("Arial", 0, 14));
 
-        texto_horas_mes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_horas_mes.setFont(new java.awt.Font("Arial", 0, 14));
 
-        texto_salario.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_salario.setFont(new java.awt.Font("Arial", 0, 14));
 
-        boton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        boton.setFont(new java.awt.Font("Arial", 0, 14));
         boton.setText("Calcular");
         boton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -47,7 +47,7 @@ public class Ejercicio_4_22 extends javax.swing.JFrame {
         });
 
         texto_info.setColumns(20);
-        texto_info.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto_info.setFont(new java.awt.Font("Arial", 0, 14));
         texto_info.setRows(5);
         jScrollPane1.setViewportView(texto_info);
 
@@ -110,7 +110,7 @@ public class Ejercicio_4_22 extends javax.swing.JFrame {
 
         pack();
     }
-    private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
+    private void botonActionPerformed(java.awt.event.ActionEvent evt) {
         emp = (String)texto_emp.getText();
         horas = Double.parseDouble(texto_salario.getText());
         valor = Double.parseDouble(texto_horas_mes.getText());
