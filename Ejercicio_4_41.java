@@ -7,8 +7,6 @@ public class Ejercicio_4_41 extends javax.swing.JFrame {
     public Ejercicio_4_41() {
         initComponents();
     }
-
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
@@ -18,20 +16,20 @@ public class Ejercicio_4_41 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        titulo.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        titulo.setFont(new java.awt.Font("Arial", 0, 18));
         titulo.setText("Ejercicio 41 capítulo 4");
 
-        numeros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        numeros.setFont(new java.awt.Font("Arial", 0, 14));
         numeros.setText("Números:");
 
-        texto.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        texto.setFont(new java.awt.Font("Arial", 0, 14));
         texto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textoActionPerformed(evt);
             }
         });
 
-        boton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        boton.setFont(new java.awt.Font("Arial", 0, 14));
         boton.setText("Calcular número mayor");
         boton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,13 +70,12 @@ public class Ejercicio_4_41 extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void textoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textoActionPerformed
+    private void textoActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    }//GEN-LAST:event_textoActionPerformed
-
-    private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
+    private void botonActionPerformed(java.awt.event.ActionEvent evt) {
         String lista = texto.getText();
         String[] lista_sep = lista.split(",");
         double mayor = Double.parseDouble(lista_sep[0]);
@@ -89,8 +86,7 @@ public class Ejercicio_4_41 extends javax.swing.JFrame {
             }   
         } JOptionPane.showMessageDialog(null,"El número mayor es el: "+mayor);
         
-    }//GEN-LAST:event_botonActionPerformed
-
+    }
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -98,11 +94,8 @@ public class Ejercicio_4_41 extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton boton;
     private javax.swing.JLabel numeros;
     private javax.swing.JTextField texto;
     private javax.swing.JLabel titulo;
-    // End of variables declaration//GEN-END:variables
 }
