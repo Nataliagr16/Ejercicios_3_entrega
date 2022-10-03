@@ -1,5 +1,4 @@
 package Ejercicios_tercer_corte;
-
 import java.awt.event.ActionEvent;
 
 public class Ejercicio_3_18 extends javax.swing.JFrame {
@@ -158,29 +157,24 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void texto_codigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_codigoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_texto_codigoActionPerformed
+    private void texto_codigoActionPerformed(java.awt.event.ActionEvent evt) {
+   }
 
-    private void texto_nombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_nombreActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_texto_nombreActionPerformed
+    private void texto_nombreActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void texto_valorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_valorActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_texto_valorActionPerformed
+    private void texto_valorActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void texto_horasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_horasActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_texto_horasActionPerformed
+    private void texto_horasActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void texto_porcentajeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto_porcentajeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_texto_porcentajeActionPerformed
+    private void texto_porcentajeActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void boton_mostrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_mostrarActionPerformed
+    private void boton_mostrarActionPerformed(java.awt.event.ActionEvent evt) {
         nombre_empleado = (String)texto_nombre.getText();
         codigo_empleado = (String)texto_codigo.getText();
         horas_trabajadas = Double.parseDouble(texto_horas.getText());
@@ -214,7 +208,6 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
             }
         });
     }
-
     private javax.swing.JButton boton_mostrar;
     private javax.swing.JLabel codigo;
     private javax.swing.JLabel horas_mes;
@@ -230,6 +223,4 @@ public class Ejercicio_3_18 extends javax.swing.JFrame {
     private javax.swing.JTextField texto_valor;
     private javax.swing.JLabel titulo;
     private javax.swing.JLabel valor_horas;
-
     }
-
